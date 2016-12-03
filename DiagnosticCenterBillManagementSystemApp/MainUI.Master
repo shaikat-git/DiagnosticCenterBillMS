@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainUI.master.cs" Inherits="DiagnosticCenterBillManagementSystemApp.MainUI" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="UTF-8" />
+    <title>Main</title>
+    <asp:ContentPlaceHolder ID="headCPH" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/reset.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
+    <%--------JqueryUI----------------------%>
+    <link href="Content/themes/base/jquery-ui.css" rel="stylesheet" />
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+        <div>
+            <div class="wrapper">
+                <header>
+                    <div class="logo">
+                        <a href="Default.aspx">
+                            <img src="../Content/bitm-logo.png" alt="Logo" style="width: 211px; height: 100px;" /></a>
+                        <%--<img src="../Content/monkey.png" alt="Logo"/>--%>
+                    </div>
+                    <div class="banner">
+                        <img src="../Content/images.jpg" alt="Banner" />
+                    </div>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="Default.aspx">Home</a></li>
+                        <li><a href="TestTypeUI.aspx">Test Type Setup</a></li>
+                        <li><a href="TestSetupUI.aspx">Test Setup</a></li>
+                        <li><a href="TestRequistEntryUI.aspx">Test Request</a></li>
+                        <li><a href="PaymentUI.aspx">Payment</a></li>
+                        <li><a href="TestWiseReportUI.aspx">Test Wise Report</a></li>
+                        <li><a href="TypeWiseReportUI.aspx">Type Wise Report</a></li>
+                        <li><a href="UnpaidBillReportUI.aspx">Unpaid Bill Report</a></li>
+                    </ul>
+                </nav>
+
+                <div class="Container">
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="ContainerCPH" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+                <footer>Developed By Shaikat, Batch 30, BITM</footer>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,125 @@
+﻿.body {
+    background: #D5D5D5;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    border:1px solid #D2D3D1;
+    margin-top:5px;
+    background: White;
+}
+
+header {
+    width: 960px;
+    float: left;
+
+}
+
+/*header img{
+    width: 100px;
+    height: 100px;
+    vertical-align:central;
+    text-align:right;
+}*/
+.logo {
+    width: 250px;
+    height: 100px;
+    float: left;
+    margin:5px;
+}
+
+.banner {
+    width: 700px;
+    height: 100px;
+    float: left;
+}
+
+.logotext{
+    font-size: 40px; 
+    margin:0 auto; 
+    text-align: center;
+    padding-top:25px;
+    color:red;
+    text-align:left;
+}
+.welcome{
+    font-size: 40px; 
+    margin:0 auto; 
+    text-align: center;
+    padding-top:10px;
+    color: #071e57;
+}
+
+
+nav {
+    width: 958px;
+}
+nav ul {
+    
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    width:auto;
+    background: #071e57;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    font-size:13.6px;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: black;
+}
+
+.Container {
+  
+}
+
+.content {
+    width: 950px;
+    float: left;
+    margin: 10px;
+ }
+
+.content table {
+    border: 1px solid #D2D3D1;
+    margin: 0 auto;
+}
+
+.content table tr td {
+    padding: 3px;
+}
+
+
+.content h1 {
+    color: #071e57;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+footer {
+    width: 950px;
+    color: white;
+    background: #696969;
+    clear: both;
+    text-align: center;
+    padding:5px;
+}
+
+
